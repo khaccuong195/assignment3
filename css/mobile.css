@@ -1,0 +1,36 @@
+@media (max-width: 767px) {
+  .nav-bar-text {
+    display: none;
+  }
+  .nav-bor {
+    border-right: none;
+  }
+
+  .section-title {
+    margin-top: 32px;
+  }
+  #nav-bar .container {
+    padding: 0;
+  }
+  #nav-bar a:link,
+  a:visited {
+    display: block;
+    padding: 15px;
+    border-left: none;
+    padding-bottom: 30px;
+    text-align: left;
+  }
+  .certificate-box {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .certificate-box2 {
+    border-left: none;
+    padding-top: 52px;
+    border-top: 2px solid #d6c08d;
+  }
+  #footer a:link {
+    font-size: 50%;
+    margin: 5px;
+  }
+}

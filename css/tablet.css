@@ -1,0 +1,37 @@
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  .nav-bar-text {
+    display: none;
+  }
+
+  #nav-bar a:link,
+  a:visited {
+    padding: 15px;
+    padding-bottom: 30px;
+  }
+  .certificate-box {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .flex-title {
+    padding: 5px;
+    font-size: 10px;
+  }
+  .flex-content {
+    font-size: 10px;
+    padding: 5px;
+    border: 1px solid #e0dfdf;
+  }
+  .flex-content span {
+    margin-right: 0px;
+  }
+  tr td:first-child {
+    width: 30%;
+    vertical-align: top;
+    font-weight: 500;
+  }
+  #footer a:link {
+    font-size: 80%;
+    margin: 5px;
+  }
+}
